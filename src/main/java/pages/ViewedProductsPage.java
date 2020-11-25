@@ -1,4 +1,5 @@
-package Pages;
+package pages;
 
 public class ViewedProductsPage {
+
 }
