@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="11684" started-at="2020-11-26T09:35:35Z" finished-at="2020-11-26T09:35:47Z">
+  <suite name="Surefire suite" duration-ms="12381" started-at="2020-11-26T11:20:40Z" finished-at="2020-11-26T11:20:52Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="11684" started-at="2020-11-26T09:35:35Z" finished-at="2020-11-26T09:35:47Z">
+    <test name="Surefire test" duration-ms="12381" started-at="2020-11-26T11:20:40Z" finished-at="2020-11-26T11:20:52Z">
       <class name="tests.ProductActionsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ProductActionsTest@2fea7088]" name="setUp" is-config="true" duration-ms="6152" started-at="2020-11-26T09:35:36Z" finished-at="2020-11-26T09:35:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ProductActionsTest@5c87bfe2]" name="setUp" is-config="true" duration-ms="6454" started-at="2020-11-26T11:20:40Z" finished-at="2020-11-26T11:20:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.ProductActionsTest@2fea7088]" name="homePageTest" duration-ms="4724" started-at="2020-11-26T09:35:42Z" finished-at="2020-11-26T09:35:46Z">
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.ProductActionsTest@5c87bfe2]" name="homePageTest" duration-ms="5152" started-at="2020-11-26T11:20:47Z" finished-at="2020-11-26T11:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.ProductActionsTest@2fea7088]" name="close" is-config="true" duration-ms="684" started-at="2020-11-26T09:35:46Z" finished-at="2020-11-26T09:35:47Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.ProductActionsTest@5c87bfe2]" name="close" is-config="true" duration-ms="662" started-at="2020-11-26T11:20:52Z" finished-at="2020-11-26T11:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

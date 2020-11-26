@@ -9,6 +9,7 @@ public class BasePage {
     private WebDriverWait wait;
     private final String baseURI = "https://rozetka.com.ua/";
 
+
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
