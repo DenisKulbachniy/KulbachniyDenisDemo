@@ -1,0 +1,5 @@
+pages\BasePage.class
+pages\ProductsPage.class
+waiters\Waiter.class
+pages\ViewedProductsPage.class
+pages\HomePage.class
