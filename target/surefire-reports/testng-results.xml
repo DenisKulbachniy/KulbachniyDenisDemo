@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="12381" started-at="2020-11-26T11:20:40Z" finished-at="2020-11-26T11:20:52Z">
+  <suite name="Surefire suite" duration-ms="13356" started-at="2020-11-26T16:18:23Z" finished-at="2020-11-26T16:18:36Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="12381" started-at="2020-11-26T11:20:40Z" finished-at="2020-11-26T11:20:52Z">
+    <test name="Surefire test" duration-ms="13356" started-at="2020-11-26T16:18:23Z" finished-at="2020-11-26T16:18:36Z">
       <class name="tests.ProductActionsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ProductActionsTest@5c87bfe2]" name="setUp" is-config="true" duration-ms="6454" started-at="2020-11-26T11:20:40Z" finished-at="2020-11-26T11:20:47Z">
+        <test-method status="PASS" signature="setUp2()[pri:0, instance:tests.ProductActionsTest@75ed9710]" name="setUp2" is-config="true" duration-ms="4518" started-at="2020-11-26T16:18:23Z" finished-at="2020-11-26T16:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp2 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ProductActionsTest@75ed9710]" name="setUp" is-config="true" duration-ms="2184" started-at="2020-11-26T16:18:27Z" finished-at="2020-11-26T16:18:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.ProductActionsTest@5c87bfe2]" name="homePageTest" duration-ms="5152" started-at="2020-11-26T11:20:47Z" finished-at="2020-11-26T11:20:52Z">
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:tests.ProductActionsTest@75ed9710]" name="homePageTest" duration-ms="5747" started-at="2020-11-26T16:18:29Z" finished-at="2020-11-26T16:18:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.ProductActionsTest@5c87bfe2]" name="close" is-config="true" duration-ms="662" started-at="2020-11-26T11:20:52Z" finished-at="2020-11-26T11:20:52Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.ProductActionsTest@75ed9710]" name="close" is-config="true" duration-ms="750" started-at="2020-11-26T16:18:35Z" finished-at="2020-11-26T16:18:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

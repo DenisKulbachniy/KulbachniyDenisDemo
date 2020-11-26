@@ -12,11 +12,7 @@ public class ProductsPage extends BasePage {
     @FindBy(xpath = "(//button[@class='buy-button goods-tile__buy-button'])[1]")
     private WebElement cartButtonOnFirstProduct;
 
-    public WebElement getCartButtonOnFirstProduct() {
-        return cartButtonOnFirstProduct;
-    }
-
-    @FindBy(xpath = "/html/body/app-root/div/div[1]/app-rz-header/header/div/div[2]/ul/li[5]/div/div/a")
+    @FindBy(xpath = "(//div[@class='header-actions__button-wrapper'])[3]")
     private WebElement headerCartButton;
 
     @FindBy(xpath = "//div[@class='cart-product__main']")
@@ -24,6 +20,10 @@ public class ProductsPage extends BasePage {
 
     @FindBy(xpath = "(//span[@class='goods-tile__title'])[1]")
     private WebElement firstProductFromCatalogue;
+
+    public WebElement getCartButtonOnFirstProduct() {
+        return cartButtonOnFirstProduct;
+    }
 
     public String getProductNameInCart() {
         wait.untilVisible(productInCart);

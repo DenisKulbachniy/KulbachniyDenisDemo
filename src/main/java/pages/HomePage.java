@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import waiters.Waiter;
 
 public class HomePage extends BasePage {
-    @FindBy(xpath = "/html/body/app-root/div/div[1]/app-rz-header/header/div/div[2]/div[1]/button")
+    @FindBy(xpath = "//button[@class='menu-toggler']")
     private WebElement ProductsCatalogue;
 
-    @FindBy(xpath = "/html/body/app-root/div/div[1]/app-rz-header/header/div/div[2]/div[1]/fat-menu/div/ul/li[1]/div/div[2]/div[1]/div[1]/ul[1]/li/a")
+    @FindBy(xpath = "(//a[@class='menu__hidden-title'])[1]")
     private WebElement LaptopCategory;
 
     private final Waiter wait;
