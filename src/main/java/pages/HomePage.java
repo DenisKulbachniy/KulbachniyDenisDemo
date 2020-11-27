@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import waiters.Waiter;
 
 public class HomePage extends BasePage {
+
     @FindBy(xpath = "//button[@class='menu-toggler']")
     private WebElement ProductsCatalogue;
 
@@ -28,5 +29,7 @@ public class HomePage extends BasePage {
     public void navigateToLaptopCategory() {
         wait.untilVisible(LaptopCategory).click();
     }
+
+    //public void
 
 }

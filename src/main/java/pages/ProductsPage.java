@@ -19,7 +19,10 @@ public class ProductsPage extends BasePage {
     private WebElement productInCart;
 
     @FindBy(xpath = "(//span[@class='goods-tile__title'])[1]")
-    private WebElement firstProductFromCatalogue;
+    private WebElement firstProductFromLaptops;
+
+    @FindBy(xpath = "(//span[@class='goods-tile__title'])[2]")
+    private WebElement secondProductFromLaptops;
 
     public WebElement getCartButtonOnFirstProduct() {
         return cartButtonOnFirstProduct;
@@ -31,8 +34,8 @@ public class ProductsPage extends BasePage {
     }
 
     public String getFirstProductName() {
-        wait.untilVisible(firstProductFromCatalogue);
-        return firstProductFromCatalogue.getText();
+        wait.untilVisible(firstProductFromLaptops);
+        return firstProductFromLaptops.getText();
     }
 
     public ProductsPage(WebDriver driver) {
@@ -49,4 +52,13 @@ public class ProductsPage extends BasePage {
     public void clickToHeaderCartButton() {
         wait.untilVisible(headerCartButton).click();
     }
+
+    public void clickToFirstProductFromLaptops() {
+        wait.untilVisible(firstProductFromLaptops);
+    }
+
+    public void clickToSecondProductFromLaptops() {
+        wait.untilVisible(secondProductFromLaptops);
+    }
+
 }

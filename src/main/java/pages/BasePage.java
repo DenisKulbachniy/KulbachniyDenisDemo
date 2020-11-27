@@ -17,4 +17,7 @@ public class BasePage {
     public void openHomePage() {
         driver.get(baseURI);
     }
+    public void clickBackButton() {
+        driver.navigate().back();
+    }
 }
